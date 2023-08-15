@@ -15,9 +15,6 @@ M.treesitter = {
   },
   indent = {
     enable = true,
-    -- disable = {
-    --   "python"
-    -- },
   },
 }
 
@@ -33,6 +30,13 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
+
+    -- boomer tech
+    "pyright",
+
+    -- zoomer tech
+    "rust-analyzer",
+    "gopls",
 
     -- c/cpp stuff
     "clangd",

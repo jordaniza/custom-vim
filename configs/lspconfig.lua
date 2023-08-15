@@ -6,12 +6,15 @@ local configs = require "lspconfig.configs"
 
 local servers = {
   "pyright",
+  "html",
+  "cssls",
   "tsserver",
   "jsonls",
   "rust_analyzer",
   "clangd",
   "gopls",
-  "astro-language-server",
+  "astro",
+  "tailwindcss",
 }
 
 for _, lsp in ipairs(servers) do

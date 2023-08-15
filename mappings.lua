@@ -13,29 +13,28 @@ M.personal = {
     ["gf"] = {
       "<ESC>",
       "escape insert mode",
-      opts = { nowait = true }
+      opts = { nowait = true },
     },
     ["<C-s>"] = {
       "<cmd> w <CR>",
-      "save file"
-    }
+      "save file",
+    },
   },
   n = {
     ["<C-x>"] = {
       "<cmd> bp | bd # <CR>",
-      "Switch to previous buffer, closing the current"
+      "Switch to previous buffer, closing the current",
     },
-    ['<leader>te'] = {
+    ["<leader>te"] = {
       "<cmd>EthHvr<CR>",
       "Convert wei to ETH",
-      opts = { nowait = true }
+      opts = { nowait = true },
     },
-    ['<F12>b'] = {
+    ["<F12>b"] = {
       ":exe ':silent !brave-browser %'<CR>",
-      "Open current file in Brave"
-    }
-  }
+      "Open current file in Brave",
+    },
+  },
 }
-
 
 return M
